@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color:  rgba(16, 144, 216, 0.1) !important;
+    border-radius: 8px;
+}
+.navbar-brand{
+    font-weight: 700 !important;
+font-size: 30px !important;
+color: rgba(17, 17, 17, 0.8) !important;
+}
+.navbar-brand p{
+    font-size: 20px !important;
+    font-weight: 400;
+}
+
+.btn{
+    font-weight: 700 !important;
+font-size: 20px !important;
+color: #fff;
+}
+
+.card{
+    width: 100% !important;
+    height: 450px !important;
+    padding: 1rem !important;
+}
+
+.card button{
+    background-color: #1090D8 !important;
+    font-weight: 700 !important;
+font-size: 20px !important;
+}
+
+.card-body .card-text{
+    font-weight: 400 !important;
+font-size: 1rem !important;
+    color: #414141 !important;
+}
+.card img{
+    width: 100% !important;
+    height: 200px !important;
+}

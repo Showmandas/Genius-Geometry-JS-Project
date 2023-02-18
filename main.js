@@ -20,9 +20,13 @@ calculateTriangle.addEventListener("click", function () {
   let hVal = h.value;
   let hNumVal = parseFloat(hVal);
 
-  let triangleArea = (0.5 * bNumVal * hNumVal).toFixed(2);
-  document.getElementById("result").innerText = triangleArea;
-  document.getElementById("triangle-result").style.display = "block";
+  if (bVal == "" || hVal == "") {
+    alert("pls fill up all fields!!");
+  } else {
+    let triangleArea = (0.5 * bNumVal * hNumVal).toFixed(2);
+    document.getElementById("result").innerText = triangleArea;
+    document.getElementById("triangle-result").style.display = "block";
+  }
 
   //clear input fields after click on button
   document.getElementById("base").value = "";
@@ -39,9 +43,13 @@ calculateRectangle.addEventListener("click", function () {
   let lNumVal = parseFloat(lVal);
 
   // area function
-  let rectangleArea = area(wNumVal, lNumVal);
-  document.getElementById("recresult").innerText = rectangleArea;
-  document.getElementById("rectangle-result").style.display = "block";
+  if (wVal == "" || lVal == "") {
+    alert("pls fill up all fields!!");
+  } else {
+    let rectangleArea = area(wNumVal, lNumVal);
+    document.getElementById("recresult").innerText = rectangleArea;
+    document.getElementById("rectangle-result").style.display = "block";
+  }
 
   //clear input fields after click on button
   document.getElementById("width").value = "";

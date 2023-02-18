@@ -171,17 +171,37 @@
 
                 </div>
                
-              </div><!--/paralellogram-result-->
+              </div><br><!--/paralellogram-result-->
 
               <div id="rhombus-result">
                
                 <div class="d-flex gap-2">
-                  3.<span id="rhombusResult"></span><span>cm<sup>2</sup></span>
+                  4.<span id="rhombusResult"></span><span>cm<sup>2</sup></span>
                   <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
 
                 </div>
                
-              </div><!--/rhombus-result-->
+              </div><br><!--/rhombus-result-->
+
+              <div id="pentagon-result">
+               
+                <div class="d-flex gap-2">
+                  5.<span id="pentagonResult"></span><span>cm<sup>2</sup></span>
+                  <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
+
+                </div>
+               
+              </div><br><!--/pentagon-result-->
+
+              <div id="ellipse-result">
+               
+                <div class="d-flex gap-2">
+                  6.<span id="ellipseResult"></span><span>cm<sup>2</sup></span>
+                  <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
+
+                </div>
+               
+              </div><!--/ellipse-result-->
             </div><!--/card-->
           </div><!--/col-lg-3-->
         </div>
@@ -241,15 +261,17 @@
                     type="text"
                     class="form-control w-50"
                     placeholder="p"
+                    id="p"
                   />
                   &nbsp; <span>cm</span> &nbsp;
                   <input
                     type="text"
                     class="form-control w-50"
                     placeholder="b"
+                    id="b1"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
-                <button class="btn btn-primary w-100">Calculate</button>
+                <button id="pentagonArea" class="btn btn-primary w-100">Calculate</button>
               </div>
               <!--/card-body-->
             </div>

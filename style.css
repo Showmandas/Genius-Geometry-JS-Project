@@ -63,6 +63,14 @@ font-size: 1rem !important;
     display: none;
 }
 
+#pentagon-result{
+    display: none;
+}
+
+#ellipse-result{
+    display: none;
+}
+
 
 #convertBtn{
     width: 75% !important;

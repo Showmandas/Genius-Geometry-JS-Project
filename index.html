@@ -64,7 +64,7 @@
                     id="height"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
-                <button id='calculate' class="btn btn-primary w-100">Calculate</button>
+                <button id='calculateTriangle' class="btn btn-primary w-100">Calculate</button>
               </div>
               <!--/card-body-->
             </div>
@@ -98,7 +98,7 @@
                     id="length"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
-                <button class="btn btn-primary w-100">Calculate</button>
+                <button id="calculateRectangle" class="btn btn-primary w-100">Calculate</button>
               </div>
               <!--/card-body-->
             </div>
@@ -122,15 +122,17 @@
                     type="text"
                     class="form-control w-50"
                     placeholder="b"
+                    id="base"
                   />
                   &nbsp; <span>cm</span> &nbsp;
                   <input
                     type="text"
                     class="form-control w-50"
                     placeholder="h"
+                    id="height"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
-                <button class="btn btn-primary w-100">Calculate</button>
+                <button id="paraArea" class="btn btn-primary w-100">Calculate</button>
               </div>
               <!--/card-body-->
             </div>
@@ -141,17 +143,47 @@
             <div class="card">
               <h5 class="card-title text-decoration-underline text-center">Area Calculation</h5>
 
-              <div id="result-body">
-               <ol>
-                <li>
-                  <span id="result"></span><span>cm<sup>2</sup></span>
+              <div id="triangle-result">
+               
+                <div class="d-flex gap-2">
+                  1.<span id="result"></span><span>cm<sup>2</sup></span>
                   <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
 
-                </li>
-               </ol>
-              </div><!--/result-body-->
-            </div>
-          </div>
+                </div><!--/d-flex-->
+               
+              </div><br><!--/triangle-result-->
+
+              <div id="rectangle-result">
+               
+                <div class="d-flex gap-2">
+                  2.<span id="recresult"></span><span>cm<sup>2</sup></span>
+                  <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
+
+                </div>
+               
+              </div><br><!--/rectangle-result-->
+
+              <div id="paralellogram-result">
+               
+                <div class="d-flex gap-2">
+                  3.<span id="paraResult"></span><span>cm<sup>2</sup></span>
+                  <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
+
+                </div>
+               
+              </div><!--/paralellogram-result-->
+
+              <div id="rhombus-result">
+               
+                <div class="d-flex gap-2">
+                  3.<span id="rhombusResult"></span><span>cm<sup>2</sup></span>
+                  <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
+
+                </div>
+               
+              </div><!--/rhombus-result-->
+            </div><!--/card-->
+          </div><!--/col-lg-3-->
         </div>
         <!--/row--><!--/first row-->
         <!-- second row  -->
@@ -174,15 +206,17 @@
                     type="text"
                     class="form-control w-50"
                     placeholder="d1"
+                    id="d1"
                   />
                   &nbsp; <span>cm</span> &nbsp;
                   <input
                     type="text"
                     class="form-control w-50"
                     placeholder="d2"
+                    id="d2"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
-                <button class="btn btn-primary w-100">Calculate</button>
+                <button id="rhombusArea" class="btn btn-primary w-100">Calculate</button>
               </div>
               <!--/card-body-->
             </div>

@@ -47,7 +47,19 @@ font-size: 1rem !important;
     height: 200px !important;
 }
 
-#result-body{
+#triangle-result{
+    display: none;
+}
+
+#rectangle-result{
+    display: none;
+}
+
+#paralellogram-result{
+    display: none;
+}
+
+#rhombus-result{
     display: none;
 }
 

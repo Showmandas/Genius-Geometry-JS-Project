@@ -24,9 +24,9 @@ calculateTriangle.addEventListener("click", function () {
   document.getElementById("result").innerText = triangleArea;
   document.getElementById("triangle-result").style.display = "block";
 
-//clear input fields after click on button 
-  document.getElementById("base").value='';
-  document.getElementById("height").value='';
+  //clear input fields after click on button
+  document.getElementById("base").value = "";
+  document.getElementById("height").value = "";
 });
 
 // for rectangle
@@ -42,10 +42,10 @@ calculateRectangle.addEventListener("click", function () {
   let rectangleArea = area(wNumVal, lNumVal);
   document.getElementById("recresult").innerText = rectangleArea;
   document.getElementById("rectangle-result").style.display = "block";
-  
-//clear input fields after click on button 
-document.getElementById("width").value='';
-document.getElementById("length").value='';
+
+  //clear input fields after click on button
+  document.getElementById("width").value = "";
+  document.getElementById("length").value = "";
 });
 
 // for Parallelogram
@@ -61,10 +61,10 @@ paraArea.addEventListener("click", function () {
   let paraArea = area(bNumVal, hNumVal);
   document.getElementById("paraResult").innerText = paraArea;
   document.getElementById("paralellogram-result").style.display = "block";
-  
-//clear input fields after click on button 
-document.getElementById("b").value='';
-document.getElementById("h").value='';
+
+  //clear input fields after click on button
+  document.getElementById("b").value = "";
+  document.getElementById("h").value = "";
 });
 
 // for Rhombus
@@ -78,10 +78,10 @@ rhombusArea.addEventListener("click", function () {
   let rhombusArea = (0.5 * d1NumVal * d2NumVal).toFixed(2);
   document.getElementById("rhombusResult").innerText = rhombusArea;
   document.getElementById("rhombus-result").style.display = "block";
-  
-//clear input fields after click on button 
-document.getElementById("d1").value='';
-document.getElementById("d2").value='';
+
+  //clear input fields after click on button
+  document.getElementById("d1").value = "";
+  document.getElementById("d2").value = "";
 });
 
 // for pentagon
@@ -95,10 +95,10 @@ pentagonArea.addEventListener("click", function () {
   let pentagonArea = (0.5 * pNumVal * b1NumVal).toFixed(2);
   document.getElementById("pentagonResult").innerText = pentagonArea;
   document.getElementById("pentagon-result").style.display = "block";
-  
-//clear input fields after click on button 
-document.getElementById("p").value='';
-document.getElementById("b1").value='';
+
+  //clear input fields after click on button
+  document.getElementById("p").value = "";
+  document.getElementById("b1").value = "";
 });
 
 // for ellipse
@@ -112,71 +112,70 @@ ellipseArea.addEventListener("click", function () {
   let ellipseArea = (3.14 * aNumVal * b2NumVal).toFixed(2);
   document.getElementById("ellipseResult").innerText = ellipseArea;
   document.getElementById("ellipse-result").style.display = "block";
-  
-//clear input fields after click on button 
-document.getElementById("a").value='';
-document.getElementById("b2").value='';
-});
 
+  //clear input fields after click on button
+  document.getElementById("a").value = "";
+  document.getElementById("b2").value = "";
+});
 
 // background hover effect for all cards
 
-// for triangle 
-let triangleCard=document.getElementById('triangleCard');
+// for triangle
+let triangleCard = document.getElementById("triangleCard");
 
-triangleCard.addEventListener('mouseenter',function(){
-    const randomNumber=Math.floor(Math.random()*16777215);
-    const randomCode= "#" + randomNumber.toString(16);
-    console.log(randomNumber,randomCode);
-    triangleCard.style.backgroundColor=randomCode;
-})
+triangleCard.addEventListener("mouseenter", function () {
+  const randomNumber = Math.floor(Math.random() * 16777215);
+  const randomCode = "#" + randomNumber.toString(16);
+  console.log(randomNumber, randomCode);
+  triangleCard.style.backgroundColor = randomCode;
+});
 
-// for rectangle 
-let rectangleCard=document.getElementById('rectangleCard');
+// for rectangle
+let rectangleCard = document.getElementById("rectangleCard");
 
-rectangleCard.addEventListener('mouseenter',function(){
-    const randomNumber=Math.floor(Math.random()*16777215);
-    const randomCode= "#" + randomNumber.toString(16);
-    console.log(randomNumber,randomCode);
-    rectangleCard.style.backgroundColor=randomCode;
-})
+rectangleCard.addEventListener("mouseenter", function () {
+  const randomNumber = Math.floor(Math.random() * 16777215);
+  const randomCode = "#" + randomNumber.toString(16);
+  console.log(randomNumber, randomCode);
+  rectangleCard.style.backgroundColor = randomCode;
+});
 
 // for paralellogramCard
-let parallelogramCard=document.getElementById('paralellogramCard');
+let parallelogramCard = document.getElementById("paralellogramCard");
 
-parallelogramCard.addEventListener('mouseenter',function(){
-    const randomNumber=Math.floor(Math.random()*16777215);
-    const randomCode= "#" + randomNumber.toString(16);
-    console.log(randomNumber,randomCode);
-    paralellogramCard.style.backgroundColor=randomCode;
-})
+parallelogramCard.addEventListener("mouseenter", function () {
+  const randomNumber = Math.floor(Math.random() * 16777215);
+  const randomCode = "#" + randomNumber.toString(16);
+  console.log(randomNumber, randomCode);
+  paralellogramCard.style.backgroundColor = randomCode;
+});
 
 // for rhombus
-let rhombusCard=document.getElementById('rhombusCard');
+let rhombusCard = document.getElementById("rhombusCard");
 
-rhombusCard.addEventListener('mouseenter',function(){
-    const randomNumber=Math.floor(Math.random()*16777215);
-    const randomCode= "#" + randomNumber.toString(16);
-    console.log(randomNumber,randomCode);
-    rhombusCard.style.backgroundColor=randomCode;
-})
+rhombusCard.addEventListener("mouseenter", function () {
+  const randomNumber = Math.floor(Math.random() * 16777215);
+  const randomCode = "#" + randomNumber.toString(16);
+  console.log(randomNumber, randomCode);
+  rhombusCard.style.backgroundColor = randomCode;
+});
 
-// for pentagon 
-let pentagonCard=document.getElementById('pentagonCard');
+// for pentagon
+let pentagonCard = document.getElementById("pentagonCard");
 
-pentagonCard.addEventListener('mouseenter',function(){
-    const randomNumber=Math.floor(Math.random()*16777215);
-    const randomCode= "#" + randomNumber.toString(16);
-    console.log(randomNumber,randomCode);
-    pentagonCard.style.backgroundColor=randomCode;
-})
+pentagonCard.addEventListener("mouseenter", function () {
+  const randomNumber = Math.floor(Math.random() * 16777215);
+  const randomCode = "#" + randomNumber.toString(16);
+  console.log(randomNumber, randomCode);
+  pentagonCard.style.backgroundColor = randomCode;
+});
 
 // for ellipseCard
-let ellipseCard=document.getElementById('ellipseCard');
+let ellipseCard = document.getElementById("ellipseCard");
 
-ellipseCard.addEventListener('mouseenter',function(){
-    const randomNumber=Math.floor(Math.random()*16777215);
-    const randomCode= "#" + randomNumber.toString(16);
-    console.log(randomNumber,randomCode);
-    ellipseCard.style.backgroundColor=randomCode;
-})
+ellipseCard.addEventListener("mouseenter", function () {
+  const randomNumber = Math.floor(Math.random() * 16777215);
+  const randomCode = "#" + randomNumber.toString(16);
+  console.log(randomNumber, randomCode);
+  ellipseCard.style.backgroundColor = randomCode;
+});

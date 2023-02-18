@@ -1,89 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* style header part  */
-.navbar{
-    background-color:  rgba(16, 144, 216, 0.1) !important;
-    border-radius: 8px;
+.navbar {
+  background-color: rgba(16, 144, 216, 0.1) !important;
+  border-radius: 8px;
 }
-.navbar-brand{
-    font-weight: 700 !important;
-font-size: 30px !important;
-color: rgba(17, 17, 17, 0.8) !important;
+.navbar-brand {
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  color: rgba(17, 17, 17, 0.8) !important;
 }
-.navbar-brand p{
-    font-size: 20px !important;
-    font-weight: 400;
-    color: #414141;
+.navbar-brand p {
+  font-size: 20px !important;
+  font-weight: 400;
+  color: #414141;
 }
-
 
 /*style card section  */
 
-.btn{
-    font-weight: 700 !important;
-font-size: 20px !important;
-color: #fff;
+.btn {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: #fff;
 }
 
-.card{
-    width: 100% !important;
-    height: 450px !important;
-    padding: 1rem !important;
+.card {
+  width: 100% !important;
+  height: 450px !important;
+  padding: 1rem !important;
 }
 
-.card button{
-    background-color: #1090D8 !important;
-    font-weight: 700 !important;
-font-size: 20px !important;
+.card button {
+  background-color: #1090d8 !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
 }
 
-.card-body .card-text{
-    font-weight: 400 !important;
-font-size: 1rem !important;
-    color: #414141 !important;
+.card-body .card-text {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  color: #414141 !important;
 }
-.card img{
-    width: 100% !important;
-    height: 200px !important;
+.card img {
+  width: 100% !important;
+  height: 200px !important;
 }
-
 
 /* style area calculation part  */
-#triangle-result{
-    display: none;
+#triangle-result {
+  display: none;
 }
 
-#rectangle-result{
-    display: none;
+#rectangle-result {
+  display: none;
 }
 
-#paralellogram-result{
-    display: none;
+#paralellogram-result {
+  display: none;
 }
 
-#rhombus-result{
-    display: none;
+#rhombus-result {
+  display: none;
 }
 
-#pentagon-result{
-    display: none;
+#pentagon-result {
+  display: none;
 }
 
-#ellipse-result{
-    display: none;
+#ellipse-result {
+  display: none;
 }
-    
 
-#convertBtn{
-    width: 100%;
-    height: 30px;
-    padding: 0rem;
-    color: #fff;
-    border: 0;
-    border-radius: 0.3rem;
-    font-size: 0.6rem !important;
+#convertBtn {
+  width: 100%;
+  height: 30px;
+  padding: 0rem;
+  color: #fff;
+  border: 0;
+  border-radius: 0.3rem;
+  font-size: 0.6rem !important;
 }

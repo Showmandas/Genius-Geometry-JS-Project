@@ -3,6 +3,7 @@ let calculateRectangle=document.getElementById('calculateRectangle');
 let paraArea=document.getElementById('paraArea');
 let rhombusArea=document.getElementById('rhombusArea');
 let pentagonArea=document.getElementById('pentagonArea');
+let ellipseArea=document.getElementById('ellipseArea');
 
 // calculation for triangle 
 calculateTriangle.addEventListener('click',function(){
@@ -74,5 +75,20 @@ pentagonArea.addEventListener('click',function(){
     let pentagonArea=0.5 *  pNumVal * b1NumVal;
     document.getElementById('pentagonResult').innerText=pentagonArea;
     document.getElementById('pentagon-result').style.display='block';
+
+})
+
+// for ellipse 
+ellipseArea.addEventListener('click',function(){
+
+    let a=document.getElementById('a');
+    let aVal=a.value;
+    let aNumVal=parseFloat(aVal);
+    let b2=document.getElementById('b2');
+    let b2Val=b2.value;
+    let b2NumVal=parseFloat(b2Val);
+    let ellipseArea=(3.14 *  aNumVal * b2NumVal).toFixed(2);
+    document.getElementById('ellipseResult').innerText=ellipseArea;
+    document.getElementById('ellipse-result').style.display='block';
 
 })

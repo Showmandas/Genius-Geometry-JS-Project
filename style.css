@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* style header part  */
 .navbar{
     background-color:  rgba(16, 144, 216, 0.1) !important;
     border-radius: 8px;
@@ -18,6 +19,9 @@ color: rgba(17, 17, 17, 0.8) !important;
     font-weight: 400;
     color: #414141;
 }
+
+
+/*style card section  */
 
 .btn{
     font-weight: 700 !important;
@@ -47,6 +51,8 @@ font-size: 1rem !important;
     height: 200px !important;
 }
 
+
+/* style area calculation part  */
 #triangle-result{
     display: none;
 }
@@ -70,10 +76,14 @@ font-size: 1rem !important;
 #ellipse-result{
     display: none;
 }
-
+    
 
 #convertBtn{
-    width: 75% !important;
-    padding: 0rem !important;
-    font-size: 1rem !important;
+    width: 100%;
+    height: 30px;
+    padding: 0rem;
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem;
+    font-size: 0.6rem !important;
 }

@@ -46,3 +46,14 @@ font-size: 1rem !important;
     width: 100% !important;
     height: 200px !important;
 }
+
+#result-body{
+    display: none;
+}
+
+
+#convertBtn{
+    width: 75% !important;
+    padding: 0rem !important;
+    font-size: 1rem !important;
+}

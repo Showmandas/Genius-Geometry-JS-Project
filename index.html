@@ -53,15 +53,18 @@
                     type="text"
                     class="form-control w-50"
                     placeholder="b"
+                    id="base"
                   />
+
                   &nbsp; <span>cm</span> &nbsp;
                   <input
                     type="text"
                     class="form-control w-50"
                     placeholder="h"
+                    id="height"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
-                <button class="btn btn-primary w-100">Calculate</button>
+                <button id='calculate' class="btn btn-primary w-100">Calculate</button>
               </div>
               <!--/card-body-->
             </div>
@@ -73,25 +76,26 @@
               <img
                 src="images/rectangle.png"
                 class="card-img-top w-75 mx-auto p-1"
-                alt="Triangle"
+                alt="rectangle"
               />
               <div class="card-body">
-                <h5 class="card-title">Triangle</h5>
+                <h5 class="card-title">Rectangle</h5>
                 <p class="card-text">
-                  Area (A) =0.5 <i class="fa-solid fa-xmark"></i> b
-                  <i class="fa-solid fa-xmark"></i> h
+                  Area (A) =w <i class="fa-solid fa-xmark"></i> l
                 </p>
                 <div class="d-flex mb-4">
                   <input
                     type="text"
                     class="form-control w-50"
-                    placeholder="b"
+                    placeholder="w"
+                    id="width"
                   />
                   &nbsp; <span>cm</span> &nbsp;
                   <input
                     type="text"
                     class="form-control w-50"
-                    placeholder="h"
+                    placeholder="l"
+                    id="length"
                   />&nbsp; <span>cm</span>&nbsp;
                 </div>
                 <button class="btn btn-primary w-100">Calculate</button>
@@ -135,15 +139,17 @@
           <!--/col-lg-3-->
           <div class="col-lg-3">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <h5 class="card-title text-decoration-underline text-center">Area Calculation</h5>
+
+              <div id="result-body">
+               <ol>
+                <li>
+                  <span id="result"></span><span>cm<sup>2</sup></span>
+                  <button class="btn" id="convertBtn">Convert to  m<sup>2</sup></button>
+
+                </li>
+               </ol>
+              </div><!--/result-body-->
             </div>
           </div>
         </div>
@@ -258,5 +264,8 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+
+    <!-- js file  -->
+    <script src="main.js"></script>
   </body>
 </html>
